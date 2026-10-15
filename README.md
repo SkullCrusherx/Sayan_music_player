@@ -37,7 +37,7 @@ This is **not** an unofficial YouTube/JioSaavn music extractor. YouTube and JioS
 1. **Extract** `Sayan_Music_Movies_GitHub_Ready.zip` on your computer.
 2. Create a new GitHub repository, e.g. `Sayan_Music_Movies`.
 3. Click **Add file → Upload files**. Upload **the extracted files/folders**, not the ZIP itself and not an extra parent folder.
-4. Check that the root contains `settings.gradle`, `build.gradle`, `app/`, and `.github/workflows/build-apk.yml`.
+4. Check that the root contains `settings.gradle`, `build.gradle`, `app/`, and `.github/workflows/main.yml`.
 5. Click **Commit changes**.
 6. Go to **Actions → Build Sayan Music & Movies APK → Run workflow** (or use the run created by the push).
 7. Open the successful run → **Summary → Artifacts** → click `Sayan-Music-Movies-Installable-Debug-APK`.
@@ -77,7 +77,7 @@ GitHub automatically supplies Java, Gradle and Android SDK via the workflow. Ext
 ## Folder layout
 
 ```text
-.github/workflows/build-apk.yml     GitHub APK build (and optional release signing)
+.github/workflows/main.yml     GitHub APK build (and optional release signing)
 settings.gradle                     Root Gradle settings
 build.gradle                        Android plugin version
 app/build.gradle                    App and Media3 dependencies
