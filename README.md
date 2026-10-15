@@ -7,6 +7,19 @@
 
 > Import and play your own media, organize custom playlists, use a seek bar, enjoy automatic next-track playback, listen with the screen locked, and set a sleep timer. It includes official links to YouTube, YouTube Music and JioSaavn, plus direct online media links that you are authorized to use.
 
+
+## Online Song & Video Search (v1.1)
+
+In **⌕ Online Search**, enter an artist, song or video title and tap **Search YouTube + JioSaavn**. One query creates three searchable choices:
+
+- **YouTube Music** — open official music search results and choose a track.
+- **JioSaavn Songs** — open official JioSaavn song search results and choose a track.
+- **YouTube Videos** — open official video search results and choose a video.
+
+Use **Show results & play** under your chosen provider; the official service handles playback. This is **not a unified in-app results API**: no service catalog, album metadata, or audio stream is fetched by Sayan Music & Movies. YouTube/JioSaavn may require an account, show ads, or limit background playback. Your own imported music and authorized direct media URLs continue to play inside Sayan Music & Movies with autoplay, playlists and sleep timer.
+
+No API keys and no Sayan account required. Your last online search is stored locally for convenience.
+
 ## Features
 
 | Feature | Status |
@@ -34,7 +47,7 @@ This is **not** an unofficial YouTube/JioSaavn music extractor. YouTube and JioS
 
 ## How to make the APK using GitHub (no Android Studio needed)
 
-1. **Extract** `Sayan_Music_Movies_GitHub_Ready.zip` on your computer.
+1. **Extract** `Sayan_Music_Movies_Online_Search_GitHub_Ready.zip` on your computer.
 2. Create a new GitHub repository, e.g. `Sayan_Music_Movies`.
 3. Click **Add file → Upload files**. Upload **the extracted files/folders**, not the ZIP itself and not an extra parent folder.
 4. Check that the root contains `settings.gradle`, `build.gradle`, `app/`, and `.github/workflows/main.yml`.
@@ -71,7 +84,7 @@ GitHub automatically supplies Java, Gradle and Android SDK via the workflow. Ext
 
 **Library:** Import music or videos using Android's document picker. Tap Play. Use seek, previous/next, shuffle, repeat.  
 **Playlists:** Create a name → use `+ Playlist` beside a song → open playlist → Play all.  
-**Online:** Tap YouTube/JioSaavn for official playback, or supply an authorized direct HTTPS media URL. For an allowed MP3 download, tick the rights checkbox and download to your phone's Downloads directory. Import the resulting file afterward.  
+**Online Search:** Enter a query and tap Search. Choose YouTube Music, JioSaavn Songs or YouTube Videos, and select what to play in the official service. You can also supply an authorized direct HTTPS media URL. For an allowed MP3 download, tick the rights checkbox and download to your phone's Downloads directory. Import the resulting file afterward.  
 **Guide:** Explains all player features, shows Sleep Timer settings, and credits the developer.
 
 ## Folder layout

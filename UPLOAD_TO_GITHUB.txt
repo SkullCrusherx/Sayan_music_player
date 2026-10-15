@@ -1,0 +1,10 @@
+SAYAN MUSIC & MOVIES v1.1 - ONLINE SEARCH
+
+1. Extract ZIP.
+2. Open the extracted folder and upload ALL its contents to the GitHub repository root.
+3. Replace the old app files and existing .github/workflows/main.yml.
+4. Avoid extra nested folders; settings.gradle must be at repository root.
+5. GitHub > Actions > Build Sayan Music & Movies APK > Run workflow.
+6. On success, download the APK artifact, extract and install app-debug.apk.
+
+Official YouTube, YouTube Music and JioSaavn results open through their own apps/websites.
